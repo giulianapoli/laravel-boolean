@@ -1,0 +1,75 @@
+/* COMMON */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+/* HEADER */
+
+.green-row {
+    background-color: #0cd977;
+    width: 100vw;
+    height: 40px;
+}
+
+.left-side {
+    width: 20%;
+    height: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.right-side {
+    width: 80%;
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 7px;
+    border-style: none;
+    background-color: white;
+    border: 3px solid #0cd977;
+    margin-left: 50px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.jumbotron {
+    width: 80%;
+    margin: auto;
+}
