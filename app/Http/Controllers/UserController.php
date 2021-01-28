@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use DB;
 
+use App\Users;
+
 class UserController extends Controller
 {
     public function index() {

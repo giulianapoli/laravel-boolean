@@ -6,13 +6,14 @@
 
     <ul class="menu">
 
-        @foreach ($users as $person) 
+        @foreach ($user as $person) 
     
-        <li class="">
-            @foreach ($person as $property)
-                <span>{{$property}}</span>
-            @endforeach
-        </li>
+            <li class="">
+                id: {{ $person->id }}, 
+                Nome: {{ $person->first_name }}, 
+                Cognome: {{ $person->last_name }}
+                <a href="/user/{{$person->id}}">Vedi Dettagli</a>
+            </li>
             
         @endforeach
     
@@ -28,4 +29,6 @@
 
 @endsection
 
-
+{{-- @foreach ($person as $property)
+                <span>{{$property}}</span>
+            @endforeach --}}
