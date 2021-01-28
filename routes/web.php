@@ -22,3 +22,5 @@ Route::get('/aftercourse', 'AfterCourseController@index')->name('aftercourse');
 Route::get('/freebootcamp', 'FreeBootcampController@index')->name('freebootcamp');
 
 Route::get('/user', 'UserController@index')->name('user');
+
+Route::get('/user/{id}', 'UserController@show')->name('user.show');

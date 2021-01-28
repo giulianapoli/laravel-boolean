@@ -12,5 +12,12 @@ class UserController extends Controller
 
         return view('user',['users'=>$users]);
     }
+
+    public function show($id)
+    {
+        $user = Users::find($id);
+
+        return view('user', compact('user'));
+    }
 }
 ?>
