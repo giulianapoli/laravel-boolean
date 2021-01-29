@@ -6,7 +6,11 @@
 
     <ul class="menu">
 
-        @foreach ($user as $person) 
+        {{-- <li>
+            {{var_dump($user)}}
+        </li> --}}
+
+        @foreach ($users as $person) 
     
             <li class="">
                 id: {{ $person->id }}, 
@@ -29,6 +33,4 @@
 
 @endsection
 
-{{-- @foreach ($person as $property)
-                <span>{{$property}}</span>
-            @endforeach --}}
+

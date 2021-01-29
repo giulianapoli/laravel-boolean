@@ -23,4 +23,4 @@ Route::get('/freebootcamp', 'FreeBootcampController@index')->name('freebootcamp'
 
 Route::get('/user', 'UserController@index')->name('user');
 
-Route::get('/user/{id}', 'UserController@show')->name('user.show');
+Route::get('/user/{id}', 'UserController@show')->name('userdetails');
